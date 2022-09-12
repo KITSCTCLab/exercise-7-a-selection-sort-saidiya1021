@@ -1,7 +1,7 @@
 from typing import List
 
 def selectionSort(array, size) -> List[int]:
-  int array[]=array[size]
+  array=[size]
   for i in range (len(array)):
     min=i
     for j in range(i+1,len(array)):
